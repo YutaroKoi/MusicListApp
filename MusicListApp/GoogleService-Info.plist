@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>975065560801-mnqfur9u8ubvt8b8uijh60gqh2fk7ai4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.975065560801-mnqfur9u8ubvt8b8uijh60gqh2fk7ai4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBFd9HlwQoGoMlVzL17O6v--Hug5u9_GC0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>975065560801</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yutarokoi.MusicListApp</string>
+	<key>PROJECT_ID</key>
+	<string>musicapp-125e8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>musicapp-125e8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:975065560801:ios:28cc6cffed238b1c9469a0</string>
+	<key>DATABASE_URL</key>
+	<string>https://musicapp-125e8.firebaseio.com</string>
+</dict>
+</plist>
