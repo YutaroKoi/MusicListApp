@@ -1,5 +1,5 @@
 //
-//  SaveProfile.swift
+//  Profile.swift
 //  MusicListApp
 //
 //  Created by 小井優太郎 on 2020/05/26.
@@ -12,7 +12,7 @@ import Firebase
 // HUDライブラリとしては、SVProgressHUDがポピュラーだが、スター数はPKHUDのほうが多い
 import PKHUD
 
-class SaveProfile {
+class Profile {
     // サーバーに飛ばす値のプロパティ
     var userId:String! = ""
     var userName:String! = ""
@@ -43,4 +43,5 @@ class SaveProfile {
         ref.setValue(toContents())
         UserDefaults.standard.set(ref.key, forKey: "autoId")
     }
+    
 }

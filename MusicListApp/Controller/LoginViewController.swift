@@ -55,7 +55,9 @@ class LoginViewController:
                 let userId = user.uid
                 UserDefaults.standard.set(userId, forKey: "userId")
                 
-                let saveProfile = SaveProfile(snapShot: <#T##DataSnapshot#>)
+                let profile = Profile(userId: userId,userName: self.textField.text!)
+                profile.saveProfile()
+                self.dismiss(animated: true, completion: nil)
             } else {
                 print(error?.localizedDescription as Any)
             }

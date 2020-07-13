@@ -10,6 +10,8 @@
 		3351A17830B219CF3CB70074 /* Pods_MusicListApp_MusicListAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1048E92C56168A9E28BE247E /* Pods_MusicListApp_MusicListAppUITests.framework */; };
 		AC9E0EA46745218A39CBD31A /* Pods_MusicListApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAACE3AD50CD7772A1ED3F9 /* Pods_MusicListApp.framework */; };
 		C6A92916BDDFA90B62E44AA1 /* Pods_MusicListAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F40CED03A64D7A5662879D /* Pods_MusicListAppTests.framework */; };
+		CA660C5F24BB242C00E381E6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA660C5E24BB242C00E381E6 /* SearchViewController.swift */; };
+		CA660C6124BB55FE00E381E6 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA660C6024BB55FE00E381E6 /* SelectViewController.swift */; };
 		CA6868EF246AD75700484A0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6868EE246AD75700484A0A /* AppDelegate.swift */; };
 		CA6868F1246AD75700484A0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6868F0246AD75700484A0A /* SceneDelegate.swift */; };
 		CA6868F6246AD75700484A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6868F4246AD75700484A0A /* Main.storyboard */; };
@@ -20,7 +22,7 @@
 		CAE821BA246CA72D00F1954A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAE821B9246CA72D00F1954A /* GoogleService-Info.plist */; };
 		CAE821C0246CAF6B00F1954A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE821BF246CAF6B00F1954A /* LoginViewController.swift */; };
 		CAE821C224717B0500F1954A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE821C124717B0500F1954A /* UIColorExtension.swift */; };
-		CAE821C4247C91FB00F1954A /* SaveProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE821C3247C91FB00F1954A /* SaveProfile.swift */; };
+		CAE821C4247C91FB00F1954A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE821C3247C91FB00F1954A /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		75F40CED03A64D7A5662879D /* Pods_MusicListAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicListAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		895D4D2A6E7734E7B9476CAA /* Pods-MusicListAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicListAppTests.release.xcconfig"; path = "Target Support Files/Pods-MusicListAppTests/Pods-MusicListAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		B7A1B73B2ECBBD33389D5EAD /* Pods-MusicListApp-MusicListAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicListApp-MusicListAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MusicListApp-MusicListAppUITests/Pods-MusicListApp-MusicListAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA660C5E24BB242C00E381E6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CA660C6024BB55FE00E381E6 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
 		CA6868EB246AD75700484A0A /* MusicListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6868EE246AD75700484A0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA6868F0246AD75700484A0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +69,7 @@
 		CAE821B9246CA72D00F1954A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CAE821BF246CAF6B00F1954A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CAE821C124717B0500F1954A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		CAE821C3247C91FB00F1954A /* SaveProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveProfile.swift; sourceTree = "<group>"; };
+		CAE821C3247C91FB00F1954A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		FAE6F47EA83EA8FABF282872 /* Pods-MusicListAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicListAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MusicListAppTests/Pods-MusicListAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,6 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				CAE821BF246CAF6B00F1954A /* LoginViewController.swift */,
+				CA660C5E24BB242C00E381E6 /* SearchViewController.swift */,
+				CA660C6024BB55FE00E381E6 /* SelectViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -183,7 +189,7 @@
 		CAE821BD246CAF1600F1954A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CAE821C3247C91FB00F1954A /* SaveProfile.swift */,
+				CAE821C3247C91FB00F1954A /* Profile.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -449,11 +455,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA660C5F24BB242C00E381E6 /* SearchViewController.swift in Sources */,
 				CAE821C0246CAF6B00F1954A /* LoginViewController.swift in Sources */,
 				CA6868EF246AD75700484A0A /* AppDelegate.swift in Sources */,
+				CA660C6124BB55FE00E381E6 /* SelectViewController.swift in Sources */,
 				CA6868F1246AD75700484A0A /* SceneDelegate.swift in Sources */,
 				CAE821C224717B0500F1954A /* UIColorExtension.swift in Sources */,
-				CAE821C4247C91FB00F1954A /* SaveProfile.swift in Sources */,
+				CAE821C4247C91FB00F1954A /* Profile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
